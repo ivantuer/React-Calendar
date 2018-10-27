@@ -1,0 +1,57 @@
+.weekHolder {
+  display: flex;
+}
+.weekDayHolder {
+  display: flex;
+}
+.weekDayHolder .dayHolder {
+  background: lightgrey;
+}
+.dayHolder {
+  width: 150px;
+  height: 90px;
+  border: 1px solid black;
+  background: rgb(188, 225, 231);
+}
+.dayFucker {
+  background: white;
+}
+.yearHolder {
+  position: absolute;
+  left: 0px;
+  width: 13460px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.MonthAndButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.monthHolder {
+  margin-right: 20px;
+}
+.monthHolder:first-child {
+  margin-left: 20px;
+}
+.wrapper {
+  overflow: hidden;
+  position: relative;
+  height: 750px;
+  width: 1100px;
+  margin: auto;
+  border: 3px solid black;
+}
+
+.SUKA {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background: gray;
+  opacity: 0.3;
+}
